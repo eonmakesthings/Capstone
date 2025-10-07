@@ -2,7 +2,8 @@
 
 ### Capstone Research Project — Colorado School of Mines  
 **Advised by Dr. Sihua Shao**  
-*By: Noe Avila, Chase, and Nils*
+*Robot Control Team Members: Noe Avila, Chase Cordova, and Nils Jerger *
+*Other Members: Jarev Pena and Carter Sutsko *
 
 ---
 
@@ -10,8 +11,8 @@
 
 This repository contains the firmware, ROS 2 nodes, and communication scripts developed for the **Warehouse Sorting Robot Using Visible Light Communication (VLC)** Capstone project.
 
-The system enables a **TurtleBot 4** robot to receive and execute motion commands transmitted via **visible light**, removing the need for RF or Wi-Fi infrastructure.  
-Communication between a fixed LED luminaire and the robot’s onboard receiver (BeagleBone Black + OpenVLC cape) is achieved through **VLC-to-UDP relaying**, bridging light-based signaling into ROS 2 motion commands.
+The system enables a **TurtleBot 4** robot to receive and execute motion commands transmitted via **visible light**, providing an alternative to traditional RF and WiFi infrastructure.  
+Communication between a fixed LED luminaire and the robot’s onboard receiver (BeagleBone Black + OpenVLC cape) is achieved through **VLC-to-UDP relaying**, communicating ROS 2 motion commands over visible light.
 
 ---
 
@@ -102,11 +103,11 @@ Located in:
 
 - **Hardware**
   - BeagleBone Black Rev C + OpenVLC Cape  
-  - TurtleBot 4 (Standard or Lite)  
+  - TurtleBot 4 (Standard)  
   - LED Array Luminaire (TX Unit)
 - **Software**
   - Debian 11 (armhf) + OpenVLC driver v1.3+  
-  - ROS 2 Jazzy or Humble  
+  - ROS 2 Jazzy
   - Python 3.10+  
   - iRobot Create 3 ROS 2 Packages (`irobot_create_msgs`)
 
@@ -155,8 +156,8 @@ drive forward 0.25 speed 0.25
 | Name | Role | Focus |
 |------|------|--------|
 | **Noe Avila** | Electrical Engineer | ROS 2 Control, VLC Signal Processing |
-| **Chase …** | Embedded Systems Engineer | PRU Firmware & BeagleBone Integration |
-| **Nils …** | Systems Engineer | Network Interface & Thermal Design |
+| **Chase Cordova** | Embedded Systems Engineer | PRU Firmware & BeagleBone Integration |
+| **Nils Jerger** | Systems Engineer | Network Interface & Thermal Design |
 
 ---
 
